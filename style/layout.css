@@ -4,12 +4,13 @@ main {
   width: 100%;
   margin: 0 auto;
 
-  font-family: 'Manrope-SemiBold', sans-serif;
-
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .menu_Text a {
-    color: #0B004C;
+  color: #0B004C;
 }
 
 .all {
@@ -22,8 +23,9 @@ main {
 a {
   text-decoration: none;
 
-  font-family: 'Manrope-Regular', sans-serif
-
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h6 {
@@ -31,8 +33,10 @@ h6 {
 
   color: #0B004C;
 
-  font-family: 'Manrope-ExtraBold', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
 }
 
 h5 {
@@ -45,8 +49,10 @@ h2 {
 
   color: #0B004C;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 44px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 p {
@@ -54,8 +60,10 @@ p {
 
   color: #0B004C;
 
-  font-family: 'Manrope-Regular', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
   line-height: 140%;
 }
 
@@ -74,36 +82,36 @@ p {
 }
 
 h1 {
- margin: 80px 0 50px;
+  margin: 80px 0 50px;
 
- text-align: center;
+  text-align: center;
 
- color: #0B004C;
+  color: #0B004C;
 
- font-family: 'Manrope-Bold', sans-serif;
- font-size: 55px;
- line-height: 120%;
+  font-family: "Manrope", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
 }
 
- .firstScreenText p {
-   width: 100%;
-   margin: 0 0 58px 0;
+.firstScreenText p {
+  width: 100%;
+  margin: 0 0 58px 0;
 
-   text-align: center;
+  text-align: center;
 
-   color: #0B004C;
+  color: #0B004C;
 
-   font-size: 24px;
-   line-height: 140%;
-
- }
+  font-size: 24px;
+  line-height: 140%;
+}
 
 .firstButtons {
   display: flex;
   flex-direction: row;
 
   justify-content: center;
-
 }
 
 .firstButtons a, .forGuideText a, .parisText a {
@@ -115,8 +123,10 @@ h1 {
 
   color: #FF4E4E;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .guideButton {
@@ -132,7 +142,6 @@ h1 {
   background-color: #FFFFFF;
 
   font-size: 18px;
-
 }
 
 .guideButton a {
@@ -140,8 +149,9 @@ h1 {
 
   color: #FF4E4E;
 
-  font-family: 'Manrope-Bold', sans-serif;
-
+  font-family: "Manrope";
+  font-weight: 700;
+  font-style: normal;
 }
 
 .firstButtons a:first-child, .parisText a {
@@ -149,8 +159,9 @@ h1 {
   border-radius: 38px;
   background-color: #FF4E4E;
 
-  font-family: 'Manrope-Bold', sans-serif;
-
+  font-family: "Manrope";
+  font-weight: 700;
+  font-style: normal;
 }
 
 .forGuide {
@@ -175,7 +186,7 @@ h1 {
 }
 
 .forGuideText p {
-margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .forTourists, .paris {
@@ -183,7 +194,6 @@ margin-bottom: 35px;
   flex-direction: row;
 
   width: 1300px;
-
 }
 
 .parisText {
@@ -192,7 +202,7 @@ margin-bottom: 35px;
 }
 
 .forTouristsImg {
-margin-left: 230px;
+  margin-left: 230px;
 }
 
 .forTouristsImg1 {
@@ -203,7 +213,6 @@ margin-left: 230px;
   margin-top: -24px;
   margin-left: -180px;
 }
-
 
 .Menu {
   display: flex;
@@ -230,7 +239,6 @@ margin-left: 230px;
   flex-direction: row;
 
   justify-content: space-around;
-
 }
 
 .menu_Text ul li {
@@ -252,7 +260,6 @@ margin-left: 230px;
   width: 1300px;
 
   justify-content: space-between;
-
 }
 
 .cardImg {
@@ -265,8 +272,10 @@ margin-left: 230px;
 
   color: #0B004C;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 34px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .mainCard h5 {
@@ -275,8 +284,10 @@ margin-left: 230px;
 
   color: #0B004C;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .mainCard p {
@@ -285,8 +296,10 @@ margin-left: 230px;
 
   color: #6D6694;
 
-  font-family: 'Manrope-Regular', sans-serif;
+  font-family: "Manrope";
   font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
   line-height: 140%;
 }
 
@@ -300,67 +313,9 @@ margin-left: 230px;
   margin-bottom: 43px;
 }
 
-
-/* .map h2 {
-  width: 507px;
-  margin-top: -33vw;
-  margin-left: 60vw;
-
-  color: #0B004C;
-
-  font-family: 'Manrope-Bold', sans-serif;
-  font-size: 44px;
-  line-height: 133%;
-} */
-
-/* .mapText p {
-  width: 486px;
-  margin-top: 35px;
-  margin-left: 1013px;
-
-  color: #0B004C;
-
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 24px;
-  line-height: 126%;
-} */
-
 .mapImg {
   width: 707px;
 }
-
-/* .map a {
-  display: inline-block;
-
-  height: 3.4vw;
-  margin-top: 34px;
-  margin-left: 1013px;
-  padding: 0vw 2vw;
-
-  text-decoration: none;
-
-  color: white;
-  border-radius: 2vw;
-  background: #FF4E4E;
-
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 1vw;
-  line-height: 3.3vw;
-}
-
-.mapText h6 {
-  position: absolute;
-
-  margin-top: -35vw;
-  margin-left: 1013px;
-
-  color: #FF4E4E;
-
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 16px;
-
-} */
-
 
 .cardPoint {
   display: flex;
@@ -369,11 +324,9 @@ margin-left: 230px;
   width: 1300px;
 
   justify-content: space-between;
-
 }
 
 .card {
-  /* margin: 0 auto; */
   width: 285px;
 }
 
@@ -383,8 +336,6 @@ margin-left: 230px;
 
   width: 1300px;
   margin-top: 130px;
-
-
 }
 
 .card img {
@@ -398,8 +349,10 @@ margin-left: 230px;
 
   color: #0B004C;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 34px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .cardPoint h5 {
@@ -408,8 +361,10 @@ margin-left: 230px;
 
   color: #0B004C;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .cardPoint p {
@@ -418,8 +373,10 @@ margin-left: 230px;
 
   color: #6D6694;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .forGuideText {
@@ -436,8 +393,6 @@ margin-left: 230px;
 .parisText p {
   margin-bottom: 40px;
 }
-
-
 
 .end {
   display: flex;
@@ -460,8 +415,10 @@ margin-left: 230px;
 .end h1 {
   color: #FFFFFF;
 
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 55px;
+  font-weight: 700;
+  font-style: normal;
   line-height: 128%
 }
 
@@ -476,9 +433,10 @@ margin-left: 230px;
   border-radius: 50px;
   background: #FFFFFF;
 
-  font-family: 'Manrope-Regular', sans-serif;
-  font-family: 'Manrope-Bold', sans-serif;
+  font-family: "Manrope";
   font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .about {
@@ -504,8 +462,10 @@ margin-left: 230px;
 
   color: #FFFFFF;
 
-  font-family: 'Manrope-Regular', sans-serif;
+  font-family: "Manrope";
   font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .imageLogo img {
