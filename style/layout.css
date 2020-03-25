@@ -9,6 +9,10 @@ main {
 
 }
 
+.menu_Text a {
+    color: #0B004C;
+}
+
 .all {
   display: flex;
   flex-direction: column;
@@ -20,6 +24,7 @@ a {
   text-decoration: none;
 
   font-family: 'Manrope-Regular', sans-serif
+
 }
 
 h6 {
