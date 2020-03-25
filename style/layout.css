@@ -9,6 +9,9 @@ main {
   font-style: normal;
 }
 
+.menu_Text {
+  padding-top: 9px;
+}
 .menu_Text a {
   color: #0B004C;
 }
@@ -53,6 +56,7 @@ h2 {
   font-size: 44px;
   font-weight: 700;
   font-style: normal;
+  line-height: 120%;
 }
 
 p {
@@ -218,7 +222,7 @@ h1 {
   display: flex;
   flex-direction: row;
 
-  padding: 50px 90px;
+  padding: 30px 90px;
 
   background-color: #FFFFFF;
 
@@ -445,6 +449,10 @@ h1 {
   width: 1300px;
   margin-top: 130px;
 
+  font-family: "Manrope";
+  font-weight: 400;
+  font-style: normal;
+
   justify-content: space-between;
   align-items: left;
 }
@@ -453,6 +461,7 @@ h1 {
   display: flex;
 
   padding: (0, 3vw, 3vw, 0px);
+  padding-top: 9px;
 
   justify-content: space-between;
 }
