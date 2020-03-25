@@ -31,6 +31,10 @@ a {
   font-style: normal;
 }
 
+li .another {
+  color: #FF4E4E;
+}
+
 h6 {
   margin-bottom: 30px;
 
