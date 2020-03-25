@@ -1,1 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,600,700&display=swap');
+@font-face {
+font-family: "Manrope-Bold", "Manrope-ExtraBold"
+src: url("../fonts/Manrope-Bold.ttf") format("truetype");
+font-family: "PragatiNarrow-Regular",
+src: url("../fonts/PragatiNarrow-Regular.ttf") format("truetype");
+}

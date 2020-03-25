@@ -512,14 +512,3 @@ margin-left: 230px;
 .imageLogo img {
   width: 78px;
 }
-
-
-
-
-@font-face {
-font-family: "Manrope-Bold", "Manrope-ExtraBold"
-src: url("../fonts/Manrope-Bold.ttf") format("truetype");
-font-family: "PragatiNarrow-Regular",
-src: url("../fonts/PragatiNarrow-Regular.ttf") format("truetype");
-
-}
